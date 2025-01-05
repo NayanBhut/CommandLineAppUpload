@@ -7,14 +7,16 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 You can go to Xcode ➙ Preferences… ➙ Locations and pick one of the options for Command Line Tools to set the location.
 
 Files Needed For Setup TestFlight Upload
+    
     1) Upload File (.sh)
     2) Parsing File (.py)
     3) Demo testResponse and ExportOptions.Plist
 
 Setup TestFlight Upload : 
-    1) Set The Credential
+    
+    1. Set The Credential
         1) Email and App Specific password
-    2) Set the Paths
+    2. Set the Paths
         1) Project Root Folder
         2) IPA Export Folder 
         3) IPA Path ( Generated IPA) 
