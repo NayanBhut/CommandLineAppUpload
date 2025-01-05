@@ -1,11 +1,3 @@
-# CommandLineAppUpload
-
-Check xcode is installed in the mac and selected.
-If not selected try beload command to select specific xcode or update
-sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
-                                or 
-You can go to Xcode ➙ Preferences… ➙ Locations and pick one of the options for Command Line Tools to set the location.
-
 Files Needed For Setup TestFlight Upload
     1) Upload File (.sh)
     2) Parsing File (.py)
@@ -23,8 +15,8 @@ Setup TestFlight Upload :
         6) Export Option Plist (Auto and Manual setup)
         7) Team Id to Upload
         8) Python Parsing file
-        9) Temp Dir For Upload
+        8) Temp Dir For Upload
     3) Set available Project Schemes
         1) Go to updateIPAPath function and add or remove schemes as per switch case
-    4) Setup ExportOptions.Plist for manual or automatic code sign
-        1) Check the demo file 
+    4) Setup ExportOptions.Plist
+        1) Check the demo file
